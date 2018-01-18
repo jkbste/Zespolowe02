@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[ITEM]
+(
+	[Id] BIGINT NOT NULL IDENTITY (1, 1), 
+    [Name] NVARCHAR(50) NOT NULL, 
+	[Owner_id] BIGINT NOT NULL, 
+    CONSTRAINT [PK_Item] PRIMARY KEY CLUSTERED ([Id] ASC),
+	CONSTRAINT [FK_Item_User] FOREIGN KEY ([Owner_id]) REFERENCES [dbo].[USER] ([Id])
+)

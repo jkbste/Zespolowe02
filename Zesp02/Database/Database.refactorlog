@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="59b6cb9e-9447-4f31-aae3-a7c4b909a3ea" ChangeDateTime="01/18/2018 17:26:27">
+    <Property Name="ElementName" Value="[dbo].[MEETING_ROOM].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MEETING_ROOM]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="7dd9fae4-9463-4e03-b007-97e21bffb436" ChangeDateTime="01/18/2018 17:26:30">
+    <Property Name="ElementName" Value="[dbo].[MEETING_ROOM].[Address]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MEETING_ROOM]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ADDRESS" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="1c5d96fa-effe-4f20-81c6-575e1b9a024d" ChangeDateTime="01/18/2018 17:26:32">
+    <Property Name="ElementName" Value="[dbo].[MEETING_ROOM].[Date]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MEETING_ROOM]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TEDate" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a270246f-a5e3-4504-aa29-39f0f4490eb7" ChangeDateTime="01/18/2018 17:26:34">
+    <Property Name="ElementName" Value="[dbo].[MEETING_ROOM].[TEDate]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MEETING_ROOM]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DATE" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="1a9a79ca-ef3c-4096-9fbb-3229cf70ad1c" ChangeDateTime="01/18/2018 17:26:37">
+    <Property Name="ElementName" Value="[dbo].[MEETING_ROOM].[Master_id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MEETING_ROOM]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="MASTER_ID" />
+  </Operation>
+</Operations>
