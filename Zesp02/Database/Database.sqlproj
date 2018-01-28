@@ -58,12 +58,27 @@
   <ItemGroup>
     <Folder Include="Properties" />
     <Folder Include="Tables" />
+    <Folder Include="Triggers" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\USER.sql" />
     <Build Include="Tables\ITEM.sql" />
     <Build Include="Tables\MEETING_ROOM.sql" />
     <Build Include="Tables\AUCTION.sql" />
+    <Build Include="Tables\ACHIEVEMENT.sql" />
+    <Build Include="Tables\TRAIT.sql" />
+    <Build Include="Tables\GAME.sql" />
+    <Build Include="Tables\MESSAGE.sql" />
+    <Build Include="Tables\USERS_TRAITS.sql" />
+    <Build Include="Tables\FRIENDSHIPS.sql" />
+    <Build Include="Tables\USERS_MEETING_ROOMS.sql" />
+    <Build Include="Tables\COMMENT.sql" />
+    <Build Include="Tables\USERS_ACHIEVEMENTS.sql" />
+    <Build Include="Triggers\LEVEL_UPDATE.sql" />
+    <Build Include="Tables\CATEGORY.sql" />
+    <Build Include="Tables\TYPE.sql" />
+    <Build Include="Tables\NEWS.sql" />
+    <Build Include="Tables\NEWS_TITLE.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="Database.refactorlog" />
