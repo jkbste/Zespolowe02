@@ -1,17 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Paths>
-  <Jars></Jars>
+  <Jars>
+    <Jar>C:\Users\Matyias\Documents\Visual Studio 2017\Projects\pz2017_02\Zesp02\Forms\Forms.Droid\obj\Debug\lp\0\jl\formsviewgroup.jar</Jar>
+  </Jars>
   <ResolvedResourceDirectories>
-    <ResolvedResourceDirectory>C:\Users\Maks\Desktop\pz2017_02\Zesp02\Forms\Forms.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Users\Maks\Desktop\pz2017_02\Zesp02\Forms\Forms.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\Matyias\Documents\Visual Studio 2017\Projects\pz2017_02\Zesp02\Forms\Forms.Droid\obj\Debug\lp\9\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\Matyias\Documents\Visual Studio 2017\Projects\pz2017_02\Zesp02\Forms\Forms.Droid\obj\Debug\lp\10\jl\res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
-    <ResolvedAssetDirectory>obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\assets</ResolvedAssetDirectory>
-    <ResolvedAssetDirectory>obj\Debug\__library_projects__\Xamarin.Forms.Platform\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\lp\9\jl\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\lp\10\jl\assets</ResolvedAssetDirectory>
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
-    <ResolvedResourceDirectoryStamp>C:\Users\Maks\Desktop\pz2017_02\Zesp02\Forms\Forms.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Users\Maks\Desktop\pz2017_02\Zesp02\Forms\Forms.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\Matyias\Documents\Visual Studio 2017\Projects\pz2017_02\Zesp02\Forms\Forms.Droid\obj\Debug\lp\9.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\Matyias\Documents\Visual Studio 2017\Projects\pz2017_02\Zesp02\Forms\Forms.Droid\obj\Debug\lp\10.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>
 </Paths>
