@@ -1,17 +1,76 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
     <HasSharedItems>true</HasSharedItems>
-    <SharedGUID>6aadc19e-2d64-4b75-8228-d53b56b475e6</SharedGUID>
+    <SharedGUID>{54E254F0-DD96-4559-BAA0-43EFFCA1ED79}</SharedGUID>
   </PropertyGroup>
   <PropertyGroup Label="Configuration">
     <Import_RootNamespace>Forms</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="$(MSBuildThisFileDirectory)App.cs" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)App.xaml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="$(MSBuildThisFileDirectory)GettingStarted.Xamarin" />
+    <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)AuctionsTab.xaml.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GameRoomsTab.xaml.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MainPage.xaml.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MainPageDetail.xaml.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MainPageMaster.xaml.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MainPageMenuItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MainTab.xaml.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AboutApp.xaml.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Help.xaml.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Profile.xaml.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Settings.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MessagesTab.xaml.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="$(MSBuildThisFileDirectory)AuctionsTab.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)GameRoomsTab.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)MainPageDetail.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)MainPageMaster.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)MainTab.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)AboutApp.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Help.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Profile.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Settings.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)MessagesTab.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)AuctionsTab.xaml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)GameRoomsTab.xaml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)MainPage.xaml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)MainPageDetail.xaml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)MainPageMaster.xaml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)MainTab.xaml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)AboutApp.xaml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Help.xaml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Profile.xaml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Settings.xaml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)MessagesTab.xaml" />
   </ItemGroup>
 </Project>

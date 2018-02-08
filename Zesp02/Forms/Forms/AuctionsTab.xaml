@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Forms.AuctionsTab"
+             Icon="ic_store_white_24dp.png">
+    <ContentPage.Content>
+        <StackLayout Padding="10">
+            <ListView x:Name="listView" RowHeight="60">
+                <ListView.Header>
+                    <StackLayout>
+                        <SearchBar/>
+                        <Button Text="Wyszukiwanie zaawansowane"/>
+                    </StackLayout>
+                </ListView.Header>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid Padding="3">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+                                <Image Source="icon.png"
+                                       Grid.Row="0"
+                                       Grid.Column="0"/>
+                                <Grid RowSpacing="0"
+                                      Grid.Row="0"
+                                      Grid.Column="1">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="23"/>
+                                    </Grid.RowDefinitions>
+                                    <Label Text="{Binding Title}"
+                                       Font="Bold,15"
+                                       Grid.Row="0" 
+                                       Grid.Column="0"/>
+                                    <Label Text="Do końca:"
+                                       Font="None,12"
+                                       Grid.Row="1"
+                                       Grid.Column="0"/>
+                                    <Label Text="{Binding ToEnd}"
+                                       Font="None,12"
+                                       HorizontalTextAlignment="End"
+                                       Grid.Row="1"
+                                       Grid.Column="1"/>
+                                    <Label Text="Wypożyczył:"
+                                       Font="None,12"
+                                       Grid.Row="2" Grid.Column="0"/>
+                                    <Label Text="{Binding User}"
+                                       Font="None,12"
+                                       HorizontalTextAlignment="End"
+                                       Grid.Row="2"
+                                       Grid.Column="1"/>
+                                </Grid>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
